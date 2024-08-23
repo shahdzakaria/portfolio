@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    font-family: "Playfair Display";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+
+    background-color: #252525;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+
+    text-decoration: none;
+    color: #dcb6c7;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    text-shadow: 0 0 1px #f0f0f028, 0 0 2px #f0f0f028, 0 0 3px #f0f0f028, 0 0 4px #f0f0f028, 0 0 5px #f0f0f028, 0 0 6px #f0f0f028, 0 0 7px #f0f0f028, 0 0 8px #f0f0f028, 0 0 9px #f0f0f028, 0 0 10px #f0f0f028;
+}
+.navigation a{
+
+    text-decoration: none;
+    color:#dcb6c7 ;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding: 30px;
+}
+.navigation a:hover{
+
+    color: #b84277;
+}
+
+section {
+
+    padding: 100px 200px;
+}
+
+.main {
+
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: black;
+   background-image: url(images/image.png) ;
+   background-repeat: no-repeat;
+
+    background-size:40%;
+    background-position: right;
+    background-attachment:fixed;
+}
+.main h2{
+    color: #b0acae;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #e4acc5;
+    font-size: 2em;
+    font-weight: 600;
+   
+}
+.main h3{
+    color: #b0acae;
+    font-size: 1.7em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn {
+    text-decoration: none;
+    color: #a31856;
+    background-color: #b0acae;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.5375em 2.1354em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.7s ease;
+  }
+  
+  .main-btn::after {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .main-btn:hover {
+    background-color: #dcb6c7;
+    transform: scale(1.1);
+  }
+  
+  .main-btn:hover::after {
+    transform: scale(1.2);
+    background: rgba(255, 255, 255, 0.285);
+  }
+  .social-icons a{
+    color: #dcb6c7;
+    font-size: 1.5em;
+    padding-right: 25px ;
+  }
+  .social-icons a:hover{
+
+    color: #b84277;}
+    
+   
+
+    .title{
+        display: flex;
+        justify-content: center;
+        color:#804660;
+        font-size: 2.5em;
+        font-weight: 800;
+        margin-bottom: 40px;
+    }
+
+    .brief{
+background-color: #e0c8d3;
+
+    }
+    .education h3{
+
+        color: #804660;
+        font-size: 1.7em;
+        font-weight: 700;
+       
+    }
+    .education h4{
+
+        color: #252525;
+        font-size: 1.5em;
+        font-weight: 700;
+        
+    }
+
+    .intership h3{
+        color: #804660;
+        font-size: 1.7em;
+        font-weight: 700;
+        padding-top: 40px;
+    }
+    .intership h4{
+
+        color: #252525;
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+
+    .information h3{
+        color: #804660;
+        font-size: 1.7em;
+        font-weight: 700;
+        padding-top: 40px;
+    }
+    
+    .information h4{
+        color: #252525;
+        font-size: 1.5em;
+        font-weight: 700;
+        
+    }
+
+    .cards{
+        background-color: #e0c8d3;
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+        color:#804660;
+        font-size: 2.5em;
+        font-weight: 800;
+        margin-bottom: 25px;
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card{
+        background-color: #e0c8d3;
+        width: 21.24em;
+        box-shadow: 0 5px 25px rgba(1 1 1 / 25%);
+        border-radius: 10px;
+        padding: 25px;
+        margin: 15px;
+    }
+    .card:hover{
+        transform: scale(1.1);
+        transition: transform 0.7s ease;
+
+    }
+    .icon{
+        color: #804660;
+        font-size: 8em;
+        text-align: center;
+    }
+
+    .info{
+text-align: center;
+
+    }
+    .info h3{
+        color: #804660;
+        font-size: 1.5em;
+        font-weight: 700;
+        margin: 10px;
+    }
+
+.projects{
+    background-color:#e0c8d3 ;
+}
+
+.projects .content{
+    margin-top: 30px;
+}
+
+.project-card{
+background-color: #e0c8d3;
+border: 3px solid #804660;
+box-shadow: 0 5px 25px rgba(1 1 1 / 25%);
+min-height: 14em;
+width: 23em;
+overflow: hidden;
+border-radius: 5px;
+margin: 20px;
+transition: 0.7s ease;
+}
+
+.project-card:hover{
+
+    transform: scale(1.1);
+}
+
+.project-card:hover .project-image{
+
+    opacity: 0.7;
+}
+
+.project-image img{
+width: 100%;
+
+}
+
+.project-info{
+
+    padding: 0.5em;
+}
+
+.project-category{
+    font-size: 1em;
+    color: #a31856;
+}
+
+.project-title{
+font-weight: 800;
+text-transform: uppercase;
+margin-top: 10px;
+
+}
+    
+
+.contact .icon{
+font-size: 4.5em;
+
+    }
+
+
+    .contact .info p{
+        font-size: 1.5em;
+    }
+
+    .footer{
+background-color: black;
+color:#dcb6c7 ;
+padding: 2em;
+display: flex;
+justify-content: space-between;
+
+    }
+
+    .footer-title{
+
+        font-size: 1.1em;
+        font-weight: 600;
+
+    }
+
+    .footer-title span{
+color: #ca256f;
+
+    }
+
+    .footer .social-icons a{
+padding: 0 12px 0 0;
+        font-size: 1.1em;
+    }
+
+
+    @media (max-width:1023px){
+        header{
+            padding: 12px 20px;
+        }
+    
+        .navigation a{
+            padding-left: 10px;
+        }
+    
+        .title{
+            font-size: 1.8em;
+        }
+    
+        section{
+            padding: 80px 20px;
+        }
+    
+        .main-content h2{
+            font-size: 1em;
+        }
+    
+        .main-content h3{
+            font-size: 1.6em;
+        }
+    
+        .content{
+            flex-direction: column;
+            align-items: center;
+        }
+    
+    }
+    
+    @media (max-width:641px){
+        body{
+            font-size: 12px;
+        }
+    
+        .main-content h2{
+            font-size: 0.8em;
+        }
+    
+        .main-content h3{
+            font-size: 1.4em;
+        }
+    }
+    
+    @media (max-width:300px){
+        body{
+            font-size: 10px;
+         
+        }
+    }
